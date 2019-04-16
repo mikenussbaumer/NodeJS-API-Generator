@@ -1,4 +1,4 @@
-# generator-node-js-api [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# NodeJS API Generator [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Generator for NodeJS API&#39;s (NoSQL, SQL, Auth, etc...)
 
 ## Installation
@@ -14,6 +14,32 @@ Then generate your new project:
 
 ```bash
 yo node-js-api
+```
+
+or
+
+```bash
+yo
+```
+
+to list all generators.
+
+## Usage for the API
+
+### Developement
+
+```bash
+npm install
+npm run start
+```
+
+### Production
+
+```bash
+npm install
+npm run build
+sh ./build.sh
+docker-compose up 
 ```
 
 ## Getting To Know Yeoman
