@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+      - mongo-config:/data/configdb
+    ports:
+      - 27021:27017
+  app:
+    image: <%= filters.appName %>/api
+    command: npm run serve
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      MONGODB_URI: mongodb://mongo/<%= filters.appName%>-api
+    ports:
+      - 5504:3000
+volumes:
+  mongo-data:
+  mongo-config:

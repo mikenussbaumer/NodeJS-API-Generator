@@ -1,12 +1,12 @@
 {
-  "name": "node-js-api-generator",
+  "name": "generator-node-js-api-generator",
   "version": "0.0.0",
   "description": "Generator for NodeJS API's (NoSQL, SQL, Auth, etc...)",
   "homepage": "",
   "author": {
     "name": "Mike Nußbaumer",
     "email": "info@mike-nussbaumer.com",
-    "url": ""
+    "url": "https://mike-nussbaumer.com"
   },
   "files": [
     "generators"
@@ -46,8 +46,9 @@
     "npm": ">= 4.0.0"
   },
   "dependencies": {
-    "yeoman-generator": "^2.0.1",
     "chalk": "^2.1.0",
+    "path": "^0.12.7",
+    "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
   "jest": {
