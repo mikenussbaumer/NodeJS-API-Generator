@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-node-js-api using [npm](
 
 ```bash
 npm install -g yo
-npm install -g generator-node-js-api
+npm install -g generator-node-javascript-api
 ```
 
 Then generate your new project:
 
 ```bash
-yo node-js-api
+yo node-javascript-api
 ```
 
 or

@@ -1,5 +1,5 @@
 {
-  "name": "generator-node-js-api",
+  "name": "generator-node-javascript-api",
   "version": "0.0.0",
   "description": "Generator for NodeJS API's (NoSQL, SQL, Auth, etc...)",
   "homepage": "",
